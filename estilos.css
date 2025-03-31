@@ -1,0 +1,16 @@
+div{
+    width: 250px;
+    height: 250px;
+    background-color: orange;
+    color: white;
+}
+
+p{
+    color: orange;
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(10%, 100%, 50%);
+}
