@@ -140,4 +140,5 @@ body{
     border-right: 12px solid green;
     border-top: 12px solid green;
     border-bottom: 12px dashed green;
+    margin: 12px;
 }
