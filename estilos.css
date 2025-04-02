@@ -31,11 +31,12 @@ p{
     height: 150px;
     background-color: hsl(0 80% 50%);
 }
-
+/*
 *{
     color: green;
     font-weight: bolder;
 }
+*/
 
 #soy_unico{
     width: 250px;
@@ -56,6 +57,7 @@ input:disabled{
     background-color: black;
 }
 
+/*
 p::first-line{
     color: green;
 }
@@ -64,6 +66,7 @@ p::first-letter{
     color: red;
     font-size: 46px;
 }
+*/
 
 .capibara1, .capibara2, .capibara3{
     width: 100px;
@@ -73,4 +76,68 @@ p::first-letter{
 
 .padre p{
     color: red;
+}
+
+p#unico.foo{
+    color: red;
+}
+
+p#unico.foo.bar{
+    color: blue;
+}
+
+p#unico.foo.bar.baz{
+    color: red!important;
+}               
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: black;
+    font-weight: bold;
+}
+
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkgoldenrod;
+}
+
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color: rgb(15, 100%, 50%);
+}
+
+.caja_interior{
+    width: 50%;
+    height: 50%;
+    background-color: violet;
+}
+
+.caja_interior p{
+    color: white;
+    font-size: 2rem;
+}
+
+body{
+    margin: 0;
+}
+
+.div2{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-left: 12px solid green;
+    border-right: 12px solid green;
+    border-top: 12px solid green;
+    border-bottom: 12px dashed green;
 }
